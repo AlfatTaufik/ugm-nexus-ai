@@ -1,0 +1,18 @@
+{
+    "biaya ukt": {
+        "text": "Biaya UKT di UGM menggunakan sistem UKT Pendidikan Unggul Bersubsidi. Kisaran mulai Rp 500.000 hingga Rp 12.000.000 per semester tergantung program studi dan kemampuan ekonomi.",
+        "image": null
+    },
+    "lokasi ugm": {
+        "text": "Kampus UGM terletak di Bulaksumur, Caturtunggal, Sleman, Yogyakarta. Landmark utamanya adalah Gedung Pusat (Balairung) dan GSP.",
+        "image": "peta_ugm.jpg"
+    },
+    "fakultas": {
+        "text": "UGM memiliki 18 Fakultas, 1 Sekolah Vokasi, dan 1 Sekolah Pascasarjana. Termasuk Teknik, Kedokteran, Hukum, dan FEB.",
+        "image": null
+    },
+    "halo": {
+        "text": "Halo juga! Saya UGM Nexus AI. Ada yang bisa saya bantu tentang kampus?",
+        "image": null
+    }
+}

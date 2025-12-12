@@ -1,0 +1,77 @@
+/* --- GLOBAL SETTINGS --- */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+.clApp {
+    background-color: #0B1120 !important;
+    background-image: radial-gradient(#1e293b 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+
+/* --- 1. MEMPERBAIKI AVATAR (REQUEST ANDA) --- */
+.clAvatar {
+    width: 65px !important;    /* Diperbesar agar jelas */
+    height: 65px !important;
+    border-radius: 50% !important; /* Lingkaran Sempurna */
+    border: 2px solid #FFCD00 !important; /* Bingkai Emas UGM */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    margin-right: 15px !important;
+    object-fit: cover; /* Agar gambar tidak gepeng */
+}
+
+/* --- 2. MEMPERBAIKI INPUT AREA (LEBIH LEGA) --- */
+#chat-input {
+    background-color: #1e293b !important;
+    border: 1px solid #334155 !important;
+    color: white !important;
+    border-radius: 25px !important;
+    
+    /* PADDING PENTING: Agar teks tidak menabrak tombol upload/kirim */
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 55px !important;  /* Jarak dari kiri (tombol upload) */
+    padding-right: 55px !important; /* Jarak dari kanan (tombol kirim) */
+    
+    min-height: 80px !important; /* Tinggi minimal diperbesar */
+    font-size: 16px !important;
+    
+    /* MENGHILANGKAN SCROLLBAR */
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* IE/Edge */
+}
+
+/* Sembunyikan scrollbar di Chrome/Safari */
+#chat-input::-webkit-scrollbar {
+    display: none;
+}
+
+/* --- 3. GAYA LAINNYA --- */
+.user-message {
+    background: linear-gradient(135deg, #003B5C 0%, #005B8E 100%) !important;
+    color: white !important;
+    border-radius: 20px 20px 4px 20px !important;
+}
+
+.assistant-message {
+    background-color: rgba(30, 41, 59, 0.9) !important;
+    color: #e2e8f0 !important;
+    border-radius: 20px 20px 20px 4px !important;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.clAction {
+    margin-top: 10px !important;
+    border: 1px solid #FFCD00 !important;
+    background-color: rgba(255, 205, 0, 0.05) !important;
+    color: #FFCD00 !important;
+    border-radius: 12px !important;
+    padding: 10px 20px !important;
+    font-weight: 600 !important;
+}
+.clAction:hover {
+    background-color: #FFCD00 !important;
+    color: #002147 !important;
+}
