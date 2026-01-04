@@ -48,7 +48,7 @@ st.markdown("""
     div.stButton > button {
     height: 100%;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
             
     /* --- GLOBAL SETTINGS --- */
